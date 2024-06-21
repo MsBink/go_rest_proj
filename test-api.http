@@ -1,0 +1,19 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{}
+
+###
+PUT http://localhost:8080/user/uuid
+Content-Type: application/json
+
+{}
+
+
+###
+DELETE 0.0.0.0:8080/user/657bf61ae121ab57e76a7a69
+Content-Type: application/json
+
+{}
+
+###

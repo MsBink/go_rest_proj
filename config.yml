@@ -1,0 +1,15 @@
+---
+
+is_debug: true
+listen:
+  type: tcp
+  bind_ip: 0.0.0.0
+  port_ip: 8080
+mongodb:
+  host: localhost
+  port: 27017
+  database: user-service
+  auth_db: admin
+  username:
+  password:
+  collection: users
